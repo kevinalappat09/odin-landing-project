@@ -1,0 +1,175 @@
+body  {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin : 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Container for header. Includes all the gray background elements */
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding : 0 240px 120px;
+    gap : 48px;
+}
+
+/* Container for the navigation in the header */
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Common styling for all list elements */
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 32px;
+}
+
+/* Common styling for all link elements */
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+/* Styling for header logo */
+.logo {
+    font-size: 24px;
+    color : #f9faf8;
+    font-weight: 900;
+}
+
+/* Header content - everything in the header other than the navigation */
+.header-content { 
+    display : flex;
+    font : 18px;
+    color : #e5e7eb;
+    gap: 32px;
+    justify-content: space-between;
+}
+
+/* Hero text styling */
+.header-hero-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+/* Header hero texting styling */
+.header-hero-content { 
+    margin: 20px 0;
+}
+
+/* Common button styling */
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border : 0px;
+    padding : 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* Common image styling */
+img {
+    width: 400px;
+    height: auto;
+}
+
+/* General container with column flex and padding */
+.container {
+    display: flex;
+    flex-direction: column;
+    padding : 100px 240px 120px;
+    align-items: center;
+    gap: 32px;
+}
+
+/* Horizintal container with cards */
+.card-container {
+    display: flex;
+    gap : 32px;
+    text-align: center;
+
+    font-size: 18px;
+    color : #1F2937;
+    padding: 10px;
+}
+
+/* Styling for the container for card images */
+.card-img-container {
+    border: 2px solid #3882f6;
+    padding : 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+/* Styling for image of cards */
+.card-img {
+    height: 100px;
+    width: auto;
+}
+
+/* Information header text styling */
+.information-header-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color : #1f2937;
+}
+
+/* Styling for quote container */
+.quote-container {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding : 100px 240px 100px;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: 100;
+}
+
+.citation { 
+    font-weight: bold;
+}
+
+.action-container {
+    margin : 100px 240px 100px;
+    background-color: #3882f6;
+    padding: 40px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-evenly;
+
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.action-header {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.action-button {
+    border: 1px solid #ffffff;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: #1F2937;
+    color: #e5e7eb;
+}
